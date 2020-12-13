@@ -1,17 +1,20 @@
 #menu {
     float: left;
-    background-color: teal;
+    background-color:tomato;
     font-family: Helvetica, Arial, sans-serif;
+    overflow: auto;
 }
 
 #text {
     float: left;
-    background-color:tomato;
+    background-color:purple;
     font-family: Helvetica, Arial, sans-serif;
+    overflow: auto;
 }
 
 #splash {
     float: left;
     background-color: violet;
     font-family: 'Courier New', Courier, monospace;
+    overflow: auto;
 }

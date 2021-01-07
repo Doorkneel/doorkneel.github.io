@@ -1,35 +1,113 @@
-/*Block modifications*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', serif;
+	font-size: 0.9rem;
+}
+
 body {
-    background-color: #37445c;
+	display: flex;
+	justify-content: flex-start;
+
+	background-color: #2d2f53;
+	/* opacity: 0.4;
+	background-image: radial-gradient(#444CF7 1px, #E5E5F7 1px);
+	background-size: 20px 20px; */
 }
-
-#header {
-    background-color: tomato;
-    text-align: center;
-}
-
-#wrap {
-    background-color: white;
-}
-
-#menu {
-    background-color: tomato;
-    float: left;
-}
-
-#text {
-    float: right;
-    background-color: teal;
-}
-
-
-/*Text modifications*/
 
 h1 {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 15px;
+	font-size: 1.8rem;
+	text-shadow: 2px 2px #6e1f1f;
 }
 
-p {
-    color:white;
+h2, h4, b {
+	margin-bottom: 15px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	margin: 30px;
+}
+
+ul {
+	margin: 15px 0;
+	list-style: none;
+}
+
+li {
+	font-size: 0.8rem;
+}
+
+
+img {
+	border-radius: 50%;
+	width: 100%;
+}
+
+.box {
+	margin: 40px 30px;
+	padding: 25px;
+	border-radius: 5px;
+	background-color:white;
+	color: #121212;
+	box-shadow: 0 3px thistle;
+}
+
+.side {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	width: 20%;
+	height: 100%;
+	padding: 20px;
+
+	background-color: #141725;
+	box-shadow: 2px 0 #262935;
+	color: white;
+}
+
+.content {
+	margin-left: 25%;
+	width: 70%;
+}
+
+.contact {
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 80%;
+	text-align: start;
+	font-family: sans-serif;
+	border-radius: 5px;
+	background-color: #0a0b0e;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.photo {
+	width: 70%;
+	margin: 15px;
+}
+
+.avatar {
+	box-shadow: 5px 7px #8d0f0f;
 }

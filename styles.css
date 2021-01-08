@@ -6,7 +6,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', serif;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 body {
@@ -14,9 +14,6 @@ body {
 	justify-content: flex-start;
 
 	background-color: #2d2f53;
-	/* opacity: 0.4;
-	background-image: radial-gradient(#444CF7 1px, #E5E5F7 1px);
-	background-size: 20px 20px; */
 }
 
 h1 {
@@ -32,7 +29,6 @@ h2, h4, b {
 }
 
 h2 {
-	text-decoration: underline;
 	margin-bottom: 30px;
 }
 
@@ -57,9 +53,31 @@ img {
 	width: 100%;
 }
 
+p {
+	margin: 5px 0;
+}
+
+a {
+	margin: 10px 0;
+	font-size: 0.9rem;
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: black;
+}
+
+b {
+	font-family: 'Roboto', sans-serif;
+}
+
 .box {
 	margin: 40px 30px;
-	padding: 25px;
+	padding: 40px;
 	border-radius: 5px;
 	background-color:white;
 	color: #121212;
@@ -88,13 +106,17 @@ img {
 }
 
 .contact {
-	margin-bottom: 30px;
-	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-bottom: 35px;
+	padding: 15px;
 	width: 80%;
 	text-align: start;
 	font-family: sans-serif;
 	border-radius: 5px;
-	background-color: #0a0b0e;
+	background-color: white;
+	color: black;
 }
 
 .profile {
@@ -109,5 +131,5 @@ img {
 }
 
 .avatar {
-	box-shadow: 5px 7px #8d0f0f;
+	box-shadow: 5px 5px #8d0f0f;
 }
